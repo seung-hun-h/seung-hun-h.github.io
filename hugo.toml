@@ -1,0 +1,30 @@
+baseUrl = 'https://seung-hun-h.github.io'
+
+theme = 'PaperMod'
+
+languageCode = 'ko-KR'
+
+title = '생각하는 개발'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[params]
+env = 'production'
+title = '생각하는 개발'
+description = '나의 생각을 담은 개발 블로그'
+keywords = ['Blog', 'Tech']
+author = '함승훈'
+
+[params.homeInfoParams]
+Title = '함승훈 | Software Engineer💻'
+Content = '필요한 것을 잘만들고 싶은 소프트웨어 엔지니어입니다'
+
+[[params.socialIcons]]
+name = 'github'
+url = 'https://github.com/seung-hun-h'
+
+[[params.socialIcons]]
+name = 'linkedIn'
+url = 'https://www.linkedin.com/in/%EC%8A%B9%ED%9B%88-%ED%95%A8-9a0948255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
