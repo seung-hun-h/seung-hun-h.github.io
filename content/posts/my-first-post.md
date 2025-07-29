@@ -1,6 +1,6 @@
 +++
 date = '2025-07-29T15:56:35+09:00'
-draft = true
+draft = false
 title = '첫 개시물!'
 +++
 

@@ -1,4 +1,4 @@
-baseUrl = 'https://seung-hun-h.github.io'
+baseURL = 'https://seung-hun-h.github.io'
 
 theme = 'PaperMod'
 
