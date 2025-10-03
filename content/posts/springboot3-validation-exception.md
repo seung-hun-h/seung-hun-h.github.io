@@ -1,11 +1,9 @@
 +++
 date = '2025-10-03T12:34:30+09:00'
 draft = false
-title = 'Springboot3 Validation Exception'
+title = 'SpringBoot3 요청 검증 - 1. 예외'
 ShowToc = true
 +++
-
-# SpringBoot3에서 변경된 요청 검증 - 1. 예외
 
 Spring Boot에서 HTTP 요청 검증은 `@Valid`, `@Constraint`, `@Validated` 애너테이션을 사용해서 편리하게 적용할 수 있다. SpringBoot2.x에서는 각 방식에 따라 발생하는 예외가 달라서 예외처리의 일관성 부족, 중복 검증 등의 문제가 있었다. SpringBoot3에서는 사용자들의 피드백을 수용해 많은 개선을 이루었다. 오늘은 각 방식을 사용하는 방법과 어떤 예외가 발생하는지에 대해 알아본다.
 
